@@ -17,8 +17,9 @@ A deep dive into accelerating machine learning and data analysis using distribut
 Exploration of core HPC concepts and CPU-level parallelism using the OpenMP API.
 * **Architectural Foundations**: Analysis of the von Neumann architecture, Flynn’s Taxonomy (SISD, SIMD, MISD, MIMD), and the "Stored-Program" concept.
 
-
-[Image of von Neumann architecture]
+<p align="center">
+  <img src="image.png" alt="Image of von Neumann architecture">
+</p>
 
 * **Performance Metrics**: Practical application of **Amdahl’s Law** (strong scaling) and **Gustafson’s Law** (weak scaling) to evaluate theoretical vs. actual speedup.
 * **Memory Models**: Technical breakdown of shared memory (global address space) versus distributed memory (message-passing/MPI) architectures.
